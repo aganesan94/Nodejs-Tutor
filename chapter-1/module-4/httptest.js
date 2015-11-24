@@ -4,9 +4,11 @@
  */
 'use strict';
 var http = require("http");
+
 var port = 3333;
-http.createServer(function (req,res){
-    res.writeHead(200,{'Content-Type':'text/plain'});
-    res.end("Hello World");
+c
+
+http.createServer(function(req,res){
+    resp(req,res);
 }).listen(port);
 console.log("Running on Port " + port);
